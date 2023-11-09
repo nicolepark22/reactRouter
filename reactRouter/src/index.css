@@ -29,14 +29,28 @@ body > div {
     justify-content: center;
 }
 .red {
-    background-color: #b05f6d;
+    background-color: #eb1539;
     color: white;
+}
+.yellow{
+    background-color: yellow;
+}
+.orange {
+    background-color: orange;
+    color: white
+}
+.green {
+    background-color: green;
+    color: white
 }
 .blue {
     background-color: #275db3;
     color: white;
 }
-
+.purple {
+    background-color: purple;
+    color: white
+}
 .home {
     background-color: black;
     color: white
