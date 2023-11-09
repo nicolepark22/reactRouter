@@ -14,20 +14,8 @@ function App() {
     return (
         <>
             <div id="container">
-                {/* <h1>React router</h1> */}
-
-                {/* <div id="navbar">
-                    <Link to="/">Home</Link>
-                    <Link to="/red">Red</Link>
-                    <Link to="/yellow">Yellow</Link>
-                    <Link to="/orange">Orange</Link>
-                    <Link to="/green">Green</Link>
-                    <Link to="/blue">Blue</Link>
-                    <Link to="/purple">Purple</Link>
-                    
-                </div> */}
-
                 <NavBar />
+
                 <div id="main-section">
                     <Routes>
                         <Route path="/" element={<Home />}></Route>
